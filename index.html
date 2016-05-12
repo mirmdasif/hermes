@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Hermes - Your Finance Adviser</title>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+
+    <style type="text/css">
+        html {
+            background : url("images/background.jpg") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        html, body {
+            background-color: transparent;
+        }
+
+        #main {
+            padding: 15px;
+        }
+
+        .bordered-box {
+            border-radius: 4px;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075);
+        }
+
+        .white-box {
+            background-color: #f8f8f8;
+            border-color: #e7e7e7;
+        }
+    </style>
+</head>
+<body>
+    <div id="header" class="container navbar navbar-default">
+        <a class="navbar-brand" href="#">Hermes</a><br>
+        Your Finance Adviser
+    </div>
+    <div id="main" class="container bordered-box white-box">
+        <div id="calculator">
+            <form class="form-horizontal">
+                <fieldset>
+
+                    <!-- Form Name -->
+                    <legend style="text-align: center"><h2>Monthly Savings Interest Calculator</h2></legend>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="textinput">Number of Payments Per Year</label>
+                        <div class="col-md-5">
+                            <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="form-control input-md">
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="textinput">Text Input</label>
+                        <div class="col-md-4">
+                            <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="form-control input-md">
+                        </div>
+                    </div>
+
+                    <!-- Button (Double) -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="button1id">Double Button</label>
+                        <div class="col-md-8">
+                            <button id="button1id" name="button1id" class="btn btn-success">Good Button</button>
+                            <button id="button2id" name="button2id" class="btn btn-danger">Scary Button</button>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</html>

@@ -1,5 +1,5 @@
 # hermes
 
-Collection of Web based financial softwares.
+Collection of web based financial softwares.
 
 https://mirmdasif.github.io/hermes/
